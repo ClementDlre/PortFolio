@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+@media (max-width: 565px) {
+  .section-heading {
+    font-size: 40px !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+  position: relative;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.progress-wrap img{
+  border: #222222 1px solid;
+  border-radius: 2px;
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 767.98px) {
+  .wrap {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .wrap .about-desc {
+    position: relative;
+  }
+}
+.wrap .about-desc .bold-text {
+  position: absolute;
+  top: -80px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .wrap .about-desc .bold-text {
+    font-size: 6em;
+  }
+}
+@media (max-width: 991px) {
+  .wrap .about-desc .bold-text {
+    display: none;
+  }
+}
+
+@media (max-width: 412px) {
+  .progress-style {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-text {
+    font-size: 6em;
+  }
+}
+@media (max-width: 991.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .bg-text {
+    position: relative;
+  }
+}
+.profile-text {
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .profile-text {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+
+@media (max-width: 767.98px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+
+#carouselExample{
+  width: 100%;
+  margin: auto;
+}
+  
+.carousel-item img{
+  width: 100%;
+  height: auto;
+}
+
+nav>ul>li>a{
+  display: inline;
+}
+
+#color-cornflowerblue{
+  color:cornflowerblue;
+}
