@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Déploiement d'un ERP}</title>
+
+    <link rel="stylesheet" href="../styles/projets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>.color-black{background-color:black;}</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light mb-1">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">{PortFolio}</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <section class="landing">
+            <h4 class="display-4">Déploiement d'un ERP</h4>
+            <div class="row">
+                <div class="col-lg-6 wrap text-left">
+                    <div class="about-desc">
+                        <h1 class="bold-text">Déploiement</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row vertical-center">
+                <div class="col-lg-8 text-left pb-5">
+                    <p class="lead pl-2">
+                        Lors de ce projet, nous avons dû, en groupe de 2, réaliser le déploiement de l'ERP Odoo de manière automatisée à l'aide d'Ansible, Terraform et Microsoft Azure.
+                    </p>
+                    <p class="lead pl-2">
+                        Ce projet a été réalisé à l'IUT afin d'appliquer ce que l'on a vu en cours. Il se base sur le projet de déploiement d'Odoo de manière automatisé de la seconde année de BUT Informatique.
+                        Nous avons dû réaliser l'ensemble de l'infrastructure à l'aide de machine virtuelle Azure que nous déployons grâce à Terraform. Le projet se compose de 3 machines: un reverse proxy, une base de donnée et un machine servant à héberger les instances odoo.
+                         Suite à cela, nous avons écrit des playbook Ansible afin d'installer et de configurer les machines. Puis nous avons automatisé l'ensemble des actions grâce à des scripts bash. Un script pour la configuration des machines et un script pour la création d'une instance Odoo.
+                        
+                    </p>
+                    <p class="lead pl-2">
+                        Compétences Techniques Acquises: Ansible, Terraform, Microsoft Azure, Docker, Docker Compose, Nginx, Postgres, Script Bash
+                    </p>
+                    <p class="lead pl-2">
+                        Savoir-être acquis: Perseverance, Collaboration, Répartion des tâches, Recherhce
+                    </p>
+                    <p class="lead pl-2" id="color-cornflowerblue"><a href="">Git Repository</a></p>
+                </div>
+                <div class="col-lg-4 text-center my-auto pb-5 rounded-circle">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="." class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
