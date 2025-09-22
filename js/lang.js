@@ -5,15 +5,13 @@ function setLanguage(lang) {
       el.textContent = translations[lang][key];
     }
   });
-  localStorage.setItem("lang", lang); // sauvegarde
+  localStorage.setItem("lang", lang);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // appliquer la langue sauvegardée au chargement
   const savedLang = localStorage.getItem("lang") || "fr";
   setLanguage(savedLang);
 
-  // attacher les boutons s'ils existent sur la page
   const btnFr = document.getElementById("lang-fr");
   const btnEn = document.getElementById("lang-en");
 
