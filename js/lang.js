@@ -5,14 +5,18 @@ function setLanguage(lang) {
       el.textContent = translations[lang][key];
     }
   });
-  localStorage.setItem("lang", lang); // Sauvegarde le choix
+  localStorage.setItem("lang", lang); // sauvegarde
 }
 
-// Au chargement : appliquer la langue sauvegardée ou par défaut (fr)
 document.addEventListener("DOMContentLoaded", () => {
+  // appliquer la langue sauvegardée au chargement
   const savedLang = localStorage.getItem("lang") || "fr";
   setLanguage(savedLang);
 
-  document.getElementById("lang-fr").addEventListener("click", () => setLanguage("fr"));
-  document.getElementById("lang-en").addEventListener("click", () => setLanguage("en"));
+  // attacher les boutons s'ils existent sur la page
+  const btnFr = document.getElementById("lang-fr");
+  const btnEn = document.getElementById("lang-en");
+
+  if (btnFr) btnFr.addEventListener("click", () => setLanguage("fr"));
+  if (btnEn) btnEn.addEventListener("click", () => setLanguage("en"));
 });

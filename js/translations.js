@@ -418,161 +418,161 @@ const translations = {
     "index.contact.titre": "Contact",
     "index.contact.description": "If my profile interests you,<BR>You can contact me by clicking on the mail icon just below :)",
 
-// baieInformatique ------------------------------------------------------------------------------------------------------------------
+    // baieInformatique ------------------------------------------------------------------------------------------------------------------
 
-"baieInformatique.page.title": "{Server Rack Installation}",
-"baieInformatique.navbar.portfolio": "{Portfolio}",
-"baieInformatique.titre": "Server Rack Installation",
-"baieInformatique.soustitre": "Installation",
+    "baieInformatique.page.title": "{Server Rack Installation}",
+    "baieInformatique.navbar.portfolio": "{Portfolio}",
+    "baieInformatique.titre": "Server Rack Installation",
+    "baieInformatique.soustitre": "Installation",
 
-"baieInformatique.desc": "To accommodate fiber, the new internet box, and a switch, my father and I decided to install a small server rack in our garage.<BR><BR>We mounted the rack on the wall in a single afternoon. We began by taking measurements and correctly positioning the rack. Once aligned, we fixed it to the wall. We then installed the patch panel, inserted the RJ45 female ports, and added all the necessary components: the internet box (later moved above), a power strip, and a temporary switch. Finally, we completed the patching process.",
+    "baieInformatique.desc": "To accommodate fiber, the new internet box, and a switch, my father and I decided to install a small server rack in our garage.<BR><BR>We mounted the rack on the wall in a single afternoon. We began by taking measurements and correctly positioning the rack. Once aligned, we fixed it to the wall. We then installed the patch panel, inserted the RJ45 female ports, and added all the necessary components: the internet box (later moved above), a power strip, and a temporary switch. Finally, we completed the patching process.",
 
-"baieInformatique.competences": "Technical Skills Acquired: Hands-on Installation",
-"baieInformatique.savoiretre": "Soft Skills Acquired: Precision, Attention to Detail, Teamwork",
+    "baieInformatique.competences": "Technical Skills Acquired: Hands-on Installation",
+    "baieInformatique.savoiretre": "Soft Skills Acquired: Precision, Attention to Detail, Teamwork",
 
-// bddS2 ------------------------------------------------------------------------------------------------------------------
+    // bddS2 ------------------------------------------------------------------------------------------------------------------
 
-"bdd.page.title": "{Database Project}",
-"bdd.navbar.portfolio": "{Portfolio}",
-"bdd.titre": "Database",
-"bdd.soustitre": "Database",
+    "bdd.page.title": "{Database Project}",
+    "bdd.navbar.portfolio": "{Portfolio}",
+    "bdd.titre": "Database",
+    "bdd.soustitre": "Database",
 
-"bdd.desc": "For this project, we worked in a team of three. The objective was to design and implement a consistent, functional database from a CSV file. We first created a conceptual data model, followed by a logical data model. We then wrote SQL scripts to generate the schema.<BR><BR>Next, we had to clean and insert the CSV data into the appropriate tables. To achieve this, we developed a Python program that extracted and split the data into columns. This was a long and complex process. After completing the insertions, we created queries and wrote functions for our database.<BR><BR>In parallel, we also carried out an analysis of the CSV file using Python.",
+    "bdd.desc": "For this project, we worked in a team of three. The objective was to design and implement a consistent, functional database from a CSV file. We first created a conceptual data model, followed by a logical data model. We then wrote SQL scripts to generate the schema.<BR><BR>Next, we had to clean and insert the CSV data into the appropriate tables. To achieve this, we developed a Python program that extracted and split the data into columns. This was a long and complex process. After completing the insertions, we created queries and wrote functions for our database.<BR><BR>In parallel, we also carried out an analysis of the CSV file using Python.",
 
-"bdd.competences": "Technical Skills Acquired: PostgreSQL, Python",
-"bdd.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "bdd.competences": "Technical Skills Acquired: PostgreSQL, Python",
+    "bdd.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// deplElement ------------------------------------------------------------------------------------------------------------------
+    // deplElement ------------------------------------------------------------------------------------------------------------------
 
-"deplElement.page.title": "{Deployment Project}",
-"deplElement.navbar.portfolio": "{Portfolio}",
-"deplElement.titre": "Deployment",
-"deplElement.soustitre": "Deployment",
+    "deplElement.page.title": "{Deployment Project}",
+    "deplElement.navbar.portfolio": "{Portfolio}",
+    "deplElement.titre": "Deployment",
+    "deplElement.soustitre": "Deployment",
 
-"deplElement.desc": "In this project, we worked in pairs to deploy the Element messaging application.<BR><BR>We used virtual machines as servers: one for matrix-synapse, one for the database, one for Element, and one as a reverse proxy. We learned how to create and configure virtual machines, then installed PostgreSQL. After that, we configured Synapse to interact with the database, and finally installed and configured Element and Nginx as a reverse proxy.<BR><BR>We encountered several issues, such as correcting YAML indentations and configuration details in Synapse, but resolved them. We also documented the full deployment process to ensure reproducibility.",
+    "deplElement.desc": "In this project, we worked in pairs to deploy the Element messaging application.<BR><BR>We used virtual machines as servers: one for matrix-synapse, one for the database, one for Element, and one as a reverse proxy. We learned how to create and configure virtual machines, then installed PostgreSQL. After that, we configured Synapse to interact with the database, and finally installed and configured Element and Nginx as a reverse proxy.<BR><BR>We encountered several issues, such as correcting YAML indentations and configuration details in Synapse, but resolved them. We also documented the full deployment process to ensure reproducibility.",
 
-"deplElement.competences": "Technical Skills Acquired: Procedure Writing in Markdown, Configuration of Synapse, Nginx & PostgreSQL, Use of SSH and SSH Tunneling",
-"deplElement.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "deplElement.competences": "Technical Skills Acquired: Procedure Writing in Markdown, Configuration of Synapse, Nginx & PostgreSQL, Use of SSH and SSH Tunneling",
+    "deplElement.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// deplOdoo ------------------------------------------------------------------------------------------------------------------
+    // deplOdoo ------------------------------------------------------------------------------------------------------------------
 
-"deplOdoo.page.title": "{ERP Deployment Project}",
-"deplOdoo.navbar.portfolio": "{Portfolio}",
-"deplOdoo.titre": "Automated ERP Deployment",
-"deplOdoo.soustitre": "Deployment",
+    "deplOdoo.page.title": "{ERP Deployment Project}",
+    "deplOdoo.navbar.portfolio": "{Portfolio}",
+    "deplOdoo.titre": "Automated ERP Deployment",
+    "deplOdoo.soustitre": "Deployment",
 
-"deplOdoo.desc": "In this project, we worked in pairs to automate the deployment of the Odoo ERP system.<BR><BR>We were provided only with the expected infrastructure diagram, constraints, and required script functionalities. We started by creating and configuring virtual machines. My teammate focused on Traefik and Odoo installation/configuration, while I handled the database, backup server, and scripts. We initially faced issues with port conflicts across machines, so the instructors decided to consolidate Traefik and Odoo on a single VM. Once I finished my part, I joined my teammate to troubleshoot Traefik-Odoo. Despite multiple difficulties with docker-compose.yml, we eventually succeeded.",
+    "deplOdoo.desc": "In this project, we worked in pairs to automate the deployment of the Odoo ERP system.<BR><BR>We were provided only with the expected infrastructure diagram, constraints, and required script functionalities. We started by creating and configuring virtual machines. My teammate focused on Traefik and Odoo installation/configuration, while I handled the database, backup server, and scripts. We initially faced issues with port conflicts across machines, so the instructors decided to consolidate Traefik and Odoo on a single VM. Once I finished my part, I joined my teammate to troubleshoot Traefik-Odoo. Despite multiple difficulties with docker-compose.yml, we eventually succeeded.",
 
-"deplOdoo.competences": "Technical Skills Acquired: Docker, Docker Compose, Traefik, PostgreSQL, Rsync, Bash Scripting",
-"deplOdoo.savoiretre": "Soft Skills Acquired: Perseverance, Collaboration, Task Distribution",
+    "deplOdoo.competences": "Technical Skills Acquired: Docker, Docker Compose, Traefik, PostgreSQL, Rsync, Bash Scripting",
+    "deplOdoo.savoiretre": "Soft Skills Acquired: Perseverance, Collaboration, Task Distribution",
 
-// festisic ------------------------------------------------------------------------------------------------------------------
+    // festisic ------------------------------------------------------------------------------------------------------------------
 
-"festisic.page.title": "{Festi'sic Project}",
-"festisic.navbar.portfolio": "{Portfolio}",
-"festisic.titre": "Festi'sic",
-"festisic.soustitre": "Festi'sic",
+    "festisic.page.title": "{Festi'sic Project}",
+    "festisic.navbar.portfolio": "{Portfolio}",
+    "festisic.titre": "Festi'sic",
+    "festisic.soustitre": "Festi'sic",
 
-"festisic.desc": "Initially, this project was to be completed in a team of three. However, my two teammates left the program during the first semester, leaving me to complete it alone.<BR><BR>The goal was to design a website for a fictional event-planning company that we had to create. We chose to build a company organizing music festivals across the Hauts-de-France region. I developed a multi-page website using HTML and CSS, applying what we had learned in class. The project was demanding and required significant personal effort, as the material covered in class was not sufficient for my ambitions for the site.",
+    "festisic.desc": "Initially, this project was to be completed in a team of three. However, my two teammates left the program during the first semester, leaving me to complete it alone.<BR><BR>The goal was to design a website for a fictional event-planning company that we had to create. We chose to build a company organizing music festivals across the Hauts-de-France region. I developed a multi-page website using HTML and CSS, applying what we had learned in class. The project was demanding and required significant personal effort, as the material covered in class was not sufficient for my ambitions for the site.",
 
-"festisic.competences": "Technical Skills Acquired: HTML, CSS",
-"festisic.savoiretre": "Soft Skills Acquired: Autonomy, Adaptability",
+    "festisic.competences": "Technical Skills Acquired: HTML, CSS",
+    "festisic.savoiretre": "Soft Skills Acquired: Autonomy, Adaptability",
 
-// gestionVentes ------------------------------------------------------------------------------------------------------------------
+    // gestionVentes ------------------------------------------------------------------------------------------------------------------
 
-"gestionVentes.page.title": "{Sales Management Application Project}",
-"gestionVentes.navbar.portfolio": "{Portfolio}",
-"gestionVentes.titre": "Sales Management",
-"gestionVentes.soustitre": "Sales Management",
+    "gestionVentes.page.title": "{Sales Management Application Project}",
+    "gestionVentes.navbar.portfolio": "{Portfolio}",
+    "gestionVentes.titre": "Sales Management",
+    "gestionVentes.soustitre": "Sales Management",
 
-"gestionVentes.desc": "This was our first major Java project, completed in a team of four. We used Gantt Project to track progress, and the project spanned several months. In the first phase, we built a terminal-based version with guidance from our instructors.<BR><BR>In the second phase, we had full freedom: we knew the required features but not the number of classes or methods. We added a graphical interface, implemented new features, performed testing, and developed graphs to determine the shortest delivery routes.",
+    "gestionVentes.desc": "This was our first major Java project, completed in a team of four. We used Gantt Project to track progress, and the project spanned several months. In the first phase, we built a terminal-based version with guidance from our instructors.<BR><BR>In the second phase, we had full freedom: we knew the required features but not the number of classes or methods. We added a graphical interface, implemented new features, performed testing, and developed graphs to determine the shortest delivery routes.",
 
-"gestionVentes.competences": "Technical Skills Acquired: Java, JUnit, Python, PostgreSQL",
-"gestionVentes.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "gestionVentes.competences": "Technical Skills Acquired: Java, JUnit, Python, PostgreSQL",
+    "gestionVentes.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// jeuPython ------------------------------------------------------------------------------------------------------------------
+    // jeuPython ------------------------------------------------------------------------------------------------------------------
 
-"jeuPython.page.title": "{Python Game Project}",
-"jeuPython.navbar.portfolio": "{Portfolio}",
-"jeuPython.titre": "Python Game",
-"jeuPython.soustitre": "Python Game",
+    "jeuPython.page.title": "{Python Game Project}",
+    "jeuPython.navbar.portfolio": "{Portfolio}",
+    "jeuPython.titre": "Python Game",
+    "jeuPython.soustitre": "Python Game",
 
-"jeuPython.desc": "This project was originally intended for a team of three, but I had to complete it alone after my two teammates left the program mid-semester.<BR><BR>We had to develop four games in Python: 'The Right Price,' 'The Matchstick Game,' 'The Multiples Game,' and 'Treasure Hunt.' I added a graphical menu interface. Each game had a terminal-based interface, and most included both human and computer modes. This project significantly enhanced my algorithmic skills.",
+    "jeuPython.desc": "This project was originally intended for a team of three, but I had to complete it alone after my two teammates left the program mid-semester.<BR><BR>We had to develop four games in Python: 'The Right Price,' 'The Matchstick Game,' 'The Multiples Game,' and 'Treasure Hunt.' I added a graphical menu interface. Each game had a terminal-based interface, and most included both human and computer modes. This project significantly enhanced my algorithmic skills.",
 
-"jeuPython.competences": "Technical Skills Acquired: Python",
-"jeuPython.savoiretre": "Soft Skills Acquired: Autonomy, Problem-Solving",
+    "jeuPython.competences": "Technical Skills Acquired: Python",
+    "jeuPython.savoiretre": "Soft Skills Acquired: Autonomy, Problem-Solving",
 
-// kickstarter ------------------------------------------------------------------------------------------------------------------
+    // kickstarter ------------------------------------------------------------------------------------------------------------------
 
-"kickstarter.page.title": "{Kickstarter Project}",
-"kickstarter.navbar.portfolio": "{Portfolio}",
-"kickstarter.titre": "Fedora Installation",
-"kickstarter.soustitre": "Fedora",
+    "kickstarter.page.title": "{Kickstarter Project}",
+    "kickstarter.navbar.portfolio": "{Portfolio}",
+    "kickstarter.titre": "Fedora Installation",
+    "kickstarter.soustitre": "Fedora",
 
-"kickstarter.desc": "In this project, we first designed system setups for given client needs. In pairs, we worked on both desktop computers for office use and a NAS server, sharing ideas and debating solutions. Next, we installed a Fedora session, retrieved the kickstarter file, and modified it for a C-language user. We also added users with encrypted passwords in the kickstarter file. Finally, we integrated it into a bootable USB stick to test automated installation.<BR><BR>We also created three Bash scripts: one for backups, one for restoring from backups, and one for creating users.",
+    "kickstarter.desc": "In this project, we first designed system setups for given client needs. In pairs, we worked on both desktop computers for office use and a NAS server, sharing ideas and debating solutions. Next, we installed a Fedora session, retrieved the kickstarter file, and modified it for a C-language user. We also added users with encrypted passwords in the kickstarter file. Finally, we integrated it into a bootable USB stick to test automated installation.<BR><BR>We also created three Bash scripts: one for backups, one for restoring from backups, and one for creating users.",
 
-"kickstarter.competences": "Technical Skills Acquired: Fedora Installation, Bash Scripting",
-"kickstarter.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "kickstarter.competences": "Technical Skills Acquired: Fedora Installation, Bash Scripting",
+    "kickstarter.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// knn ------------------------------------------------------------------------------------------------------------------
+    // knn ------------------------------------------------------------------------------------------------------------------
 
-"knn.page.title": "{KNN Project}",
-"knn.navbar.portfolio": "{Portfolio}",
-"knn.titre": "KNN",
-"knn.soustitre": "KNN",
+    "knn.page.title": "{KNN Project}",
+    "knn.navbar.portfolio": "{Portfolio}",
+    "knn.titre": "KNN",
+    "knn.soustitre": "KNN",
 
-"knn.desc": "In this project, we implemented a KNN algorithm in Java within a team of four. I particularly enjoyed this project, as it introduced me to artificial intelligence and sparked my interest in the field.<BR><BR>We began with a class diagram that guided our implementation. Personally, I worked on developing the KNN algorithm and building the graphical user interface. Although we faced many challenges—especially with the GUI—we overcame them and delivered the project on time.",
+    "knn.desc": "In this project, we implemented a KNN algorithm in Java within a team of four. I particularly enjoyed this project, as it introduced me to artificial intelligence and sparked my interest in the field.<BR><BR>We began with a class diagram that guided our implementation. Personally, I worked on developing the KNN algorithm and building the graphical user interface. Although we faced many challenges—especially with the GUI—we overcame them and delivered the project on time.",
 
-"knn.competences": "Technical Skills Acquired: Java, JavaFX, JUnit, Git",
-"knn.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "knn.competences": "Technical Skills Acquired: Java, JavaFX, JUnit, Git",
+    "knn.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// reseau ------------------------------------------------------------------------------------------------------------------
+    // reseau ------------------------------------------------------------------------------------------------------------------
 
-"reseau.page.title": "{Network Configuration Project}",
-"reseau.navbar.portfolio": "{Portfolio}",
-"reseau.titre": "Configuration",
-"reseau.soustitre": "IP - Routing",
+    "reseau.page.title": "{Network Configuration Project}",
+    "reseau.navbar.portfolio": "{Portfolio}",
+    "reseau.titre": "Configuration",
+    "reseau.soustitre": "IP - Routing",
 
-"reseau.desc": "In the first part of this project, we configured IP addressing and routing for several virtual machines and routers connected together. We also set up routes between routers managed by other students, requiring us to agree on address usage.<BR><BR>In the second part, I configured files for two machines and one router, then compressed them. The goal was to decompress the files with the correct command and options so that they would automatically configure the machine.",
+    "reseau.desc": "In the first part of this project, we configured IP addressing and routing for several virtual machines and routers connected together. We also set up routes between routers managed by other students, requiring us to agree on address usage.<BR><BR>In the second part, I configured files for two machines and one router, then compressed them. The goal was to decompress the files with the correct command and options so that they would automatically configure the machine.",
 
-"reseau.competences": "Technical Skills Acquired: Networking, IP Routing",
-"reseau.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "reseau.competences": "Technical Skills Acquired: Networking, IP Routing",
+    "reseau.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// terraformOdoo ------------------------------------------------------------------------------------------------------------------
+    // terraformOdoo ------------------------------------------------------------------------------------------------------------------
 
-"terraformOdoo.page.title": "{ERP Deployment Project}",
-"terraformOdoo.navbar.portfolio": "{Portfolio}",
-"terraformOdoo.titre": "ERP Deployment",
-"terraformOdoo.soustitre": "Deployment",
+    "terraformOdoo.page.title": "{ERP Deployment Project}",
+    "terraformOdoo.navbar.portfolio": "{Portfolio}",
+    "terraformOdoo.titre": "ERP Deployment",
+    "terraformOdoo.soustitre": "Deployment",
 
-"terraformOdoo.desc": "In this project, we worked in pairs to automate the deployment of the Odoo ERP system using Ansible, Terraform, and Microsoft Azure.<BR><BR>The project was part of coursework at the IUT, building on a previous second-year Odoo deployment project. We set up the infrastructure with Azure virtual machines provisioned via Terraform: one reverse proxy, one database server, and one Odoo host. We then wrote Ansible playbooks to install and configure the machines, and automated everything with Bash scripts—one for machine configuration and another for creating Odoo instances.",
+    "terraformOdoo.desc": "In this project, we worked in pairs to automate the deployment of the Odoo ERP system using Ansible, Terraform, and Microsoft Azure.<BR><BR>The project was part of coursework at the IUT, building on a previous second-year Odoo deployment project. We set up the infrastructure with Azure virtual machines provisioned via Terraform: one reverse proxy, one database server, and one Odoo host. We then wrote Ansible playbooks to install and configure the machines, and automated everything with Bash scripts—one for machine configuration and another for creating Odoo instances.",
 
-"terraformOdoo.competences": "Technical Skills Acquired: Ansible, Terraform, Microsoft Azure, Docker, Docker Compose, Nginx, PostgreSQL, Bash Scripting",
-"terraformOdoo.savoiretre": "Soft Skills Acquired: Perseverance, Collaboration, Task Distribution, Research",
+    "terraformOdoo.competences": "Technical Skills Acquired: Ansible, Terraform, Microsoft Azure, Docker, Docker Compose, Nginx, PostgreSQL, Bash Scripting",
+    "terraformOdoo.savoiretre": "Soft Skills Acquired: Perseverance, Collaboration, Task Distribution, Research",
 
-// tovicon ------------------------------------------------------------------------------------------------------------------
+    // tovicon ------------------------------------------------------------------------------------------------------------------
 
-"tovicon.page.title": "{Tovicon Project}",
-"tovicon.navbar.portfolio": "{Portfolio}",
-"tovicon.titre": "Tovicon",
-"tovicon.soustitre": "Tovicon",
+    "tovicon.page.title": "{Tovicon Project}",
+    "tovicon.navbar.portfolio": "{Portfolio}",
+    "tovicon.titre": "Tovicon",
+    "tovicon.soustitre": "Tovicon",
 
-"tovicon.desc": "Tovicon was a two-day project completed by a team of six using Agile methodology with 2-hour sprints. We had complete freedom to choose the project and decided to replicate the combat and arena system of Pokémon in our own way, using Java.<BR><BR>My main responsibilities included writing tests and developing the classes for attacks, Pokémon, and items. This project was very enriching, both in teamwork and in applying Agile. The method boosted our productivity, gave us clear task breakdowns, and helped us work efficiently.",
+    "tovicon.desc": "Tovicon was a two-day project completed by a team of six using Agile methodology with 2-hour sprints. We had complete freedom to choose the project and decided to replicate the combat and arena system of Pokémon in our own way, using Java.<BR><BR>My main responsibilities included writing tests and developing the classes for attacks, Pokémon, and items. This project was very enriching, both in teamwork and in applying Agile. The method boosted our productivity, gave us clear task breakdowns, and helped us work efficiently.",
 
-"tovicon.competences": "Technical Skills Acquired: Java, JUnit, Git",
-"tovicon.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
+    "tovicon.competences": "Technical Skills Acquired: Java, JUnit, Git",
+    "tovicon.savoiretre": "Soft Skills Acquired: Collaboration, Task Distribution",
 
-// triPython ------------------------------------------------------------------------------------------------------------------
+    // triPython ------------------------------------------------------------------------------------------------------------------
 
-"triPython.page.title": "{Python Sorting Project}",
-"triPython.navbar.portfolio": "{Portfolio}",
-"triPython.titre": "Python Sorting",
-"triPython.soustitre": "Sorting in Python",
+    "triPython.page.title": "{Python Sorting Project}",
+    "triPython.navbar.portfolio": "{Portfolio}",
+    "triPython.titre": "Python Sorting",
+    "triPython.soustitre": "Sorting in Python",
 
-"triPython.desc": "Originally intended for a team of three, I completed this project alone after my teammates left mid-semester.<BR><BR>The goal was to implement five sorting algorithms in Python: insertion sort, selection sort, bubble sort, merge sort, and quicksort. Additionally, we had to animate/visualize each algorithm in real time using the 'matplotlib' library for graphical output.",
+    "triPython.desc": "Originally intended for a team of three, I completed this project alone after my teammates left mid-semester.<BR><BR>The goal was to implement five sorting algorithms in Python: insertion sort, selection sort, bubble sort, merge sort, and quicksort. Additionally, we had to animate/visualize each algorithm in real time using the 'matplotlib' library for graphical output.",
 
-"triPython.competences": "Technical Skills Acquired: Python",
-"triPython.savoiretre": "Soft Skills Acquired: Autonomy, Task Management"
+    "triPython.competences": "Technical Skills Acquired: Python",
+    "triPython.savoiretre": "Soft Skills Acquired: Autonomy, Task Management"
 
 
     }
