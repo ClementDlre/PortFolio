@@ -142,6 +142,26 @@ const translations = {
     "index.projets.tripython.desc":
       "Réalisation de différentes méthodes de tri en python",
 
+    "index.projets.beatthemall.date": "Octobre, Novembre 2024",
+    "index.projets.beatthemall.titre": "{Beat Them All}",
+    "index.projets.beatthemall.desc":
+      "Réalisation de différentes méthodes de tri en python",
+
+    "index.projets.webapi.date": "Décembre 2024, Janvier 2025",
+    "index.projets.webapi.titre": "{Web API}",
+    "index.projets.webapi.desc":
+      "Création d'un Gacha via le développement de plusieurs API",
+
+    "index.projets.flutter.date": "Avril, Mai 2025",
+    "index.projets.flutter.titre": "{Flutter}",
+    "index.projets.flutter.desc":
+      "Réalisation d'un réseau social à l'aide de flutter",
+
+    "index.projets.datascience.date": "Juin 2025",
+    "index.projets.datascience.titre": "{Data Science}",
+    "index.projets.datascience.desc":
+      "Analyse, modélisation et optimisation d'un modèle de prédiction",
+
     "index.contact.titre": "Contact",
     "index.contact.description":
       "Si mon profil vous intéresse,\nVous pouvez me contacter en cliquant sur le logo mail juste en dessous :)",
@@ -330,6 +350,51 @@ const translations = {
     "triPython.savoiretre":
       "Savoir-être acquis: Collaboration, Répartion des tâches",
 
+    // BeatThemAll ------------------------------------------------------------------------------------------------------------------
+
+    "beatthemall.page.title": "{Beat Them All}",
+    "beatthemall.navbar.portfolio": "{PortFolio}",
+    "beatthemall.titre": "Beat Them All",
+    "beatthemall.soustitre": "BTA",
+    "beatthemall.desc": "",
+    "beatthemall.competences": "Compétences Techniques Acquises: Java",
+    "beatthemall.savoiretre":
+      "Savoir-être acquis: Collaboration, Répartion des tâches, Travail d'équipe",
+
+    // WebApi ------------------------------------------------------------------------------------------------------------------
+
+    "webapi.page.title": "{Web API}",
+    "webapi.navbar.portfolio": "{PortFolio}",
+    "webapi.titre": "Web API",
+    "webapi.soustitre": "Web API",
+    "webapi.desc": "",
+    "webapi.competences":
+      "Compétences Techniques Acquises: Java, Spring, Docker",
+    "webapi.savoiretre":
+      "Savoir-être acquis: Collaboration, Répartion des tâches, Travail d'équipe",
+
+    // Flutter ------------------------------------------------------------------------------------------------------------------
+
+    "flutter.page.title": "{Flutter}",
+    "flutter.navbar.portfolio": "{PortFolio}",
+    "flutter.titre": "Flutter",
+    "flutter.soustitre": "Flutter",
+    "flutter.desc": "",
+    "flutter.competences": "Compétences Techniques Acquises: Flutter, Dart",
+    "flutter.savoiretre": "Savoir-être acquis: Planification, Recherche",
+
+    // DataScience ------------------------------------------------------------------------------------------------------------------
+
+    "datascience.page.title": "{Data Science}",
+    "datascience.navbar.portfolio": "{PortFolio}",
+    "datascience.titre": "Data Science",
+    "datascience.soustitre": "Data Science",
+    "datascience.desc": "",
+    "datascience.competences":
+      "Compétences Techniques Acquises: Python, Analyse des données",
+    "datascience.savoiretre":
+      "Savoir-être acquis: Collaboration, Répartion des tâches",
+
     // alternance ------------------------------------------------------------------------------------------------------------------
 
     "experience.alternance.title": "{Alternance}",
@@ -494,6 +559,27 @@ const translations = {
     "index.projets.tripython.titre": "{Python Sorting}",
     "index.projets.tripython.desc":
       "Implemented different sorting methods in Python",
+
+    "index.projets.beatthemall.date": "October, November 2024",
+    "index.projets.beatthemall.titre": "{Beat Them All}",
+    "index.projets.beatthemall.desc":
+      "Implementation of different sorting algorithms in Python",
+
+    "index.projets.webapi.date": "December 2024, January 2025",
+    "index.projets.webapi.titre": "{Web API}",
+    "index.projets.webapi.desc":
+      "Development of a Gacha system through multiple APIs",
+
+    "index.projets.flutter.date": "April, May 2025",
+    "index.projets.flutter.titre": "{Flutter}",
+    "index.projets.flutter.desc":
+      "Creation of a social network using Flutter",
+
+    "index.projets.datascience.date": "June 2025",
+    "index.projets.datascience.titre": "{Data Science}",
+    "index.projets.datascience.desc":
+      "Analysis, modeling, and optimization of a predictive model",
+
 
     "index.contact.titre": "Contact",
     "index.contact.description":
@@ -681,6 +767,50 @@ const translations = {
 
     "triPython.competences": "Technical Skills Acquired: Python",
     "triPython.savoiretre": "Soft Skills Acquired: Autonomy, Task Management",
+
+    // BeatThemAll ------------------------------------------------------------------------------------------------------------------
+
+    "beatthemall.page.title": "{Beat Them All}",
+    "beatthemall.navbar.portfolio": "{Portfolio}",
+    "beatthemall.titre": "Beat Them All",
+    "beatthemall.soustitre": "BTA",
+    "beatthemall.desc": "",
+    "beatthemall.competences": "Technical Skills Acquired: Java",
+    "beatthemall.savoiretre":
+      "Soft Skills Acquired: Collaboration, Task Distribution, Teamwork",
+
+    // WebApi ------------------------------------------------------------------------------------------------------------------
+
+    "webapi.page.title": "{Web API}",
+    "webapi.navbar.portfolio": "{Portfolio}",
+    "webapi.titre": "Web API",
+    "webapi.soustitre": "Web API",
+    "webapi.desc": "",
+    "webapi.competences": "Technical Skills Acquired: Java, Spring, Docker",
+    "webapi.savoiretre":
+      "Soft Skills Acquired: Collaboration, Task Distribution, Teamwork",
+
+    // Flutter ------------------------------------------------------------------------------------------------------------------
+
+    "flutter.page.title": "{Flutter}",
+    "flutter.navbar.portfolio": "{Portfolio}",
+    "flutter.titre": "Flutter",
+    "flutter.soustitre": "Flutter",
+    "flutter.desc": "",
+    "flutter.competences": "Technical Skills Acquired: Flutter, Dart",
+    "flutter.savoiretre": "Soft Skills Acquired: Planning, Research",
+
+    // DataScience ------------------------------------------------------------------------------------------------------------------
+
+    "datascience.page.title": "{Data Science}",
+    "datascience.navbar.portfolio": "{Portfolio}",
+    "datascience.titre": "Data Science",
+    "datascience.soustitre": "Data Science",
+    "datascience.desc": "",
+    "datascience.competences":
+      "Technical Skills Acquired: Python, Data Analysis",
+    "datascience.savoiretre":
+      "Soft Skills Acquired: Collaboration, Task Distribution",
 
     // alternance ------------------------------------------------------------------------------------------------------------------
 
