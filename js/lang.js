@@ -1,8 +1,9 @@
 function setLanguage(lang) {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (translations[lang] && translations[lang][key]) {
-      el.textContent = translations[lang][key];
+      const text = translations[lang][key].replace(/\n/g, "<br><br>");
+      el.innerHTML = text;
     }
   });
   localStorage.setItem("lang", lang);
